@@ -1,0 +1,99 @@
+kode_kelas,nama_kelas,lokasi_kelas,Kapasitas
+SIS1J,Reguler A,Gedung D,10
+D101,Reguler A,Gedung D,15
+D212,Reguler B,Gedung D,40
+P601,Reguler B,Gedung PLT,30
+
+id,id_mata_kuliah,kode_kelas,nim,tahun,semester
+1,KAL01,SIS1J,193001,2021,genap
+2,STA01,D101,193001,2021,genap
+3,OR01,D212,193001,2021,genap
+4,MK002,P601,194001,2021,genap
+5,MK002,P601,194001,2021,genap
+6,MK003,SIS1J,194001,2021,genap
+7,MK004,D101,194001,2021,genap
+
+nim,nama,email,Gender,Asal_Sekolah,Telephone,Angkatan,Asal_Daerah
+194015,Muhammad Amir,Samarinda@inet.com,Pria,SMU,12345678,2019,Luar Daerah
+194001,Samsul Kurnia,Bontang@email.com,Pria,SMU,12345679,2019,Lokal
+194002,Bambang Arifin,Sangata@inet.com,Pria,SMU,12345680,2019,Luar Daerah
+194003,Udin,Udin@inet.com,Pria,MA,12345681,2019,Lokal
+194004,Iwan,Iwan@inet.com,Pria,MA,12345682,2019,Luar Daerah
+194005,Bambang Arifin,Bambang Arifin@inet.com,Pria,SMK,12345683,2019,Lokal
+194006,Wati,Wati@inet.com,Wanita,SMK,12345684,2019,Lokal
+194007,Ani,Ani@inet.com,Wanita,SMK,12345685,2019,Luar Daerah
+194008,Rahmawati,Rahmawati@inet.com,Wanita,SMU,12345686,2020,Lokal
+194009,Asep,Asep@inet.com,Pria,SMU,12345687,2020,Luar Daerah
+194010,Rina,rina@inet.com,Wanita,MA,12345688,2020,Lokal
+194011,Sari,sari@inet.com,Wanita,MA,12345689,2020,Lokal
+194012,Bowo,Bowo@inet.com,Pria,SMU,12345690,2020,Luar Daerah
+194013,Budi,Budi@inet.com,Pria,SMK,12345691,2020,Lokal
+194014,Putri,putri@inet.com,Wanita,SMK,12345692,2020,Lokal
+
+id_mata_kuliah,nama_mata_kuliah,SKS
+KAL01,Kalkulus Dasar,3
+STA01,Statistika Elementer,3
+MAT01,Matematika Dasar,3
+STA02,Statistika Matematika,4
+OR01,Operation Research,4
+CS01,Pendahuluan Ilmu Komputer,3
+MAT73,Aljabar Abstrak,4
+MAT53,Aljabar linear,3
+KAL02,Kalkulus Lanjut,4
+
+nim,id_mata_kuliah,NIDN,nilai,Semester,Tahun,rand
+194015,KAL01,123,70,ganjil,2019,0.504630059
+194001,KAL01,123,80,ganjil,2019,
+194002,KAL01,123,85,ganjil,2019,
+194003,KAL01,123,90,ganjil,2019,
+194004,KAL01,123,92,ganjil,2019,
+194005,KAL01,123,91,ganjil,2019,
+194006,KAL01,123,93,ganjil,2019,
+194007,KAL01,123,85,ganjil,2019,
+194008,KAL01,787,60,ganjil,2020,
+194009,KAL01,787,63,ganjil,2020,
+194010,KAL01,787,62,ganjil,2020,
+194011,KAL01,787,61,ganjil,2020,
+194012,KAL01,787,70,ganjil,2020,
+194013,KAL01,787,90,ganjil,2020,
+194014,KAL01,787,88,ganjil,2020,
+194004,CS01,234,90,genap,2020,
+194005,CS01,234,92,genap,2020,
+194006,CS01,234,85,genap,2020,
+194007,CS01,234,55,genap,2020,
+194008,CS01,234,60,genap,2020,
+194009,CS01,234,91,genap,2020,
+194010,CS01,234,90,genap,2020,
+194015,STA02,345,40,ganjil,2021,
+194002,STA02,345,50,ganjil,2021,
+194004,STA02,345,56,ganjil,2021,
+194007,STA02,345,70,ganjil,2021,
+194008,STA02,345,72,ganjil,2021,
+194011,STA02,345,31,ganjil,2021,
+194014,STA02,345,88,ganjil,2021,
+194001,KAL02,345,55,ganjil,2020,
+194002,KAL02,345,60,ganjil,2020,
+194004,KAL02,345,65,ganjil,2020,
+194007,KAL02,345,74,ganjil,2020,
+
+NIDN,kode_MK,Semester,Tahun
+123,KAL01,ganjil,2020
+123,KAL01,ganjil,2019
+123,STA01,genap,2020
+123,MAT01,genap,2020
+123,STA02,ganjil,2019
+234,OR01,ganjil,2019
+234,CS01,genap,2020
+787,KAL01,ganjil,2021
+787,KAL01,ganjil,2022
+787,STA02,ganjil,2021
+345,MAT73,genap,2020
+345,MAT53,genap,2019
+345,STA02,ganjil,2019
+345,KAL02,ganjil,2020
+
+NIDN,nama,email,Pendidikan_Terakhir,Telephone,Jenis_Kelamin
+123,Andri Basuki,anbr@googol.com,S3,11230000,Pria
+234,zulfikar,dosen@email.com,S3,22340000,Pria
+787,yudi,yudi@email.com,S2,55670000,Pria
+345,Annisa Fitria,annniza@yyyy.com,S2,88970000,Wanita
